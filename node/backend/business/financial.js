@@ -18,7 +18,7 @@ module.exports = {
 		if (!historical || !historical.length) {
 			return;
 		}
-		result = {
+		const result = {
 			name: stockName
 		};
 		result.prices = historical.map(c => {
